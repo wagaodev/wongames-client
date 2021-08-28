@@ -9,3 +9,9 @@ export default {
 const Template: Story = () => <Menu />;
 
 export const Default = Template.bind({});
+Default.parameters = {
+  layout: 'fullscreen',
+  backgrounds: {
+    default: 'dark',
+  },
+};
