@@ -1,12 +1,12 @@
 import { Story, Meta } from '@storybook/react';
-import Menu from '.';
+import Menu, { MenuProps } from '.';
 
 export default {
   title: 'Components/Menu',
   component: Menu,
 } as Meta;
 
-const Template: Story = () => <Menu />;
+const Template: Story<MenuProps> = (args) => <Menu {...args} />;
 
 export const Default = Template.bind({});
 Default.parameters = {
