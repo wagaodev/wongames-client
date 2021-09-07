@@ -30,4 +30,24 @@ describe('Component: <Banner />', () => {
 
     expect(container.firstChild).toMatchSnapshot();
   });
+
+  it('should render a Ribbon', () => {
+    renderWithTheme(
+      <Banner
+        {...props}
+        ribbon="best seller"
+        ribbonSize="small"
+        ribbonColor="secondary"
+      />
+    );
+
+    const ribbon = screen.getByText(/best seller/i);
+
+    expect(ribbon).toBeInTheDocument();
+    expect(ribbon).toHaveStyle({
+      backgroundColor: '#3CD3C1',
+      height: '2.6rem',
+      fontSize: '1.2rem',
+    });
+  });
 });

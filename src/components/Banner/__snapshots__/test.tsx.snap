@@ -74,6 +74,10 @@ exports[`Component: <Banner /> should render the heading 1`] = `
   }
 }
 
+@media (max-width:1170px) {
+
+}
+
 @media (min-width:768px) {
   .c1 {
     height: 58rem;
