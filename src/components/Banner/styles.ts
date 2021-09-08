@@ -7,7 +7,7 @@ export const Wrapper = styled.div`
   position: relative;
 
   ${media.greaterThan('medium')`
-    box-shadow: 0 0.4rem 0.5rem 0 rgba(0, -0, -0, -0.2);
+    box-shadow: 0 0.4rem 0.5rem 0 rgba(0, 0, 0, 0.2);
   `}
 
   ${media.lessThan('large')`
@@ -31,7 +31,7 @@ export const Image = styled.div<ImageProps>`
     height: 23rem;
     background-color: ${theme.colors.lightGray};
     background-image: url(${src});
-    background-position: center center;
+    background-position: center;
     background-size: cover;
 
     ${media.greaterThan('medium')`

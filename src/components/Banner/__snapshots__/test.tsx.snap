@@ -40,7 +40,7 @@ exports[`Component: <Banner /> should render the heading 1`] = `
   height: 23rem;
   background-color: #EAEAEA;
   background-image: url(https://source.unsplash.com/user/willianjusten/1042x580);
-  background-position: center center;
+  background-position: center;
   background-size: cover;
 }
 
@@ -70,7 +70,7 @@ exports[`Component: <Banner /> should render the heading 1`] = `
 
 @media (min-width:768px) {
   .c0 {
-    box-shadow: 0 0.4rem 0.5rem 0 rgba(0,-0,-0,-0.2);
+    box-shadow: 0 0.4rem 0.5rem 0 rgba(0,0,0,0.2);
   }
 }
 
