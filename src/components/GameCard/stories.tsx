@@ -11,6 +11,10 @@ export default {
     price: 'R$ 235,00',
     promotionalPrice: 'R$ 200,00',
   },
+  argTypes: {
+    onFav: { action: 'clicked' },
+    ribbon: { type: 'string' },
+  },
 } as Meta;
 
 const Template: Story<GameCardProps> = (args) => (
@@ -20,3 +24,8 @@ const Template: Story<GameCardProps> = (args) => (
 );
 
 export const Default = Template.bind({});
+
+export const WithRibbon = Template.bind({});
+WithRibbon.args = {
+  ribbon: '20% OFF',
+};
