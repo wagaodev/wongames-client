@@ -3,7 +3,7 @@ import { Story, Meta } from '@storybook/react';
 import Radio, { RadioProps } from '.';
 
 export default {
-  title: 'Components/Radio',
+  title: 'Form/Radio',
   component: Radio,
   parameters: {
     layout: 'fullscreen',
