@@ -22,7 +22,7 @@ const items = [
   },
 ];
 
-describe('<BannerSlider />', () => {
+describe('Component: <BannerSlider />', () => {
   it('should render vertical slider', () => {
     const { container } = renderWithTheme(<BannerSlider items={items} />);
 

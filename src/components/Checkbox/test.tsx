@@ -4,7 +4,7 @@ import userEvent from '@testing-library/user-event';
 import { renderWithTheme } from 'utils/tests/helpers';
 import Checkbox from '.';
 
-describe('<Checkbox />', () => {
+describe('Component: <Checkbox />', () => {
   it('should render with label', () => {
     const { container } = renderWithTheme(
       <Checkbox label="checkbox label" labelFor="check" />

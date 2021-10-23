@@ -3,7 +3,7 @@ import { renderWithTheme } from 'utils/tests/helpers';
 
 import FormSignIn from '.';
 
-describe('<FormSignIn />', () => {
+describe('Component: <FormSignIn />', () => {
   it('should render the form', () => {
     const { container } = renderWithTheme(<FormSignIn />);
 

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<Form /> should render the heading 1`] = `
+exports[`Component: <Form /> should render the heading 1`] = `
 .c0 {
   font-size: 1.4rem;
   color: #030517;

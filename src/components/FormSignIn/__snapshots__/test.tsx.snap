@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`<FormSignIn /> should render the form 1`] = `
+exports[`Component: <FormSignIn /> should render the form 1`] = `
 .c4 {
   display: inline-block;
   vertical-align: middle;

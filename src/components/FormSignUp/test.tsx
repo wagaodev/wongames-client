@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import { renderWithTheme } from 'utils/tests/helpers';
 import FormSignUp from '.';
 
-describe('<FormSignUp />', () => {
+describe('Component: <FormSignUp />', () => {
   it('should render the form', () => {
     const { container } = renderWithTheme(<FormSignUp />);
 

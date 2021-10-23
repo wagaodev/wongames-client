@@ -1,10 +1,11 @@
 import styled, { css } from 'styled-components';
 import media from 'styled-media-query';
 
-export const Wrapper = styled.main``;
 import * as HeadingStyles from 'components/Heading/styles';
 import * as GameCardSliderStyles from 'components/GameCardSlider/styles';
 import * as HighlightStyles from 'components/Highlight/styles';
+
+export const Wrapper = styled.main``;
 
 const Sections = styled.section`
   ${({ theme }) => css`

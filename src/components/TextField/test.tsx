@@ -5,7 +5,7 @@ import { Email } from '@styled-icons/material-outlined';
 import { renderWithTheme } from 'utils/tests/helpers';
 import TextField from '.';
 
-describe('<TextField />', () => {
+describe('Component: <TextField />', () => {
   it('should render with Label', () => {
     renderWithTheme(<TextField label="Label" name="Label" />);
 

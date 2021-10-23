@@ -5,7 +5,7 @@ import { renderWithTheme } from 'utils/tests/helpers';
 import theme from 'styles/theme';
 import Radio from '.';
 
-describe('<Radio />', () => {
+describe('Component: <Radio />', () => {
   it('should render with label (white)', () => {
     const { container } = renderWithTheme(
       <Radio label="Radio" labelFor="check" value="anyValue" />

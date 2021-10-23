@@ -1,7 +1,7 @@
 import { renderWithTheme } from 'utils/tests/helpers';
 import { FormLink, FormWrapper } from '.';
 
-describe('<Form />', () => {
+describe('Component: <Form />', () => {
   it('should render the heading', () => {
     const { container } = renderWithTheme(
       <FormWrapper>

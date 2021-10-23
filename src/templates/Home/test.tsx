@@ -21,7 +21,7 @@ const props = {
   freeHighligth: highlightMock,
 };
 
-describe('<Home />', () => {
+describe('Component: <Home />', () => {
   it('should render menu and footer', () => {
     renderWithTheme(<Home {...props} />);
 
