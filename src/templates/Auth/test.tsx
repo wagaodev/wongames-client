@@ -3,7 +3,7 @@ import { screen } from '@testing-library/react';
 import { renderWithTheme } from 'utils/tests/helpers';
 import Auth from '.';
 
-describe('Component: <Auth />', () => {
+describe('Template: <Auth />', () => {
   it('should render all components and children', () => {
     renderWithTheme(
       <Auth title="Auth Title">
